@@ -3,7 +3,7 @@
     background-color: white;
     height: 70px;
     width: 100%;
-    border: 1px solid #DDDDDD;
+    border: 1px solid #DDD;
     border-radius: 4px;
     display: flex;
     align-items: center;
@@ -32,10 +32,10 @@
 /* ----- CLASS .filters div:hover ul.popover ----- */
 .filters div:hover ul.popover {
     display: block;
-  }
+}
 
-/* ----- CLASS .locations, .amenities ----- */
-.locations, .amenities {
+/* ----- CLASS .locations, section.filters, .amenities ----- */
+.locations, section.filters .amenities {
     height: 100%;
     width: 25%;
     display: flex;
@@ -46,7 +46,7 @@
 
 /* ----- CLASS .locations ----- */
 .locations {
-    border-right: 1px solid #DDDDDD;
+    border-right: 1px solid #DDD;
 }
 
 /* ----- CLASS .locations h3, .amenities h3 ----- */
@@ -65,11 +65,11 @@
 /* ----- CLASS ul.popover ----- */
 ul.popover {
     background-color: #FAFAFA;
-    border: 1px solid #DDDDDD;
+    border: 1px solid #DDD;
     border-radius: 4px;
     width: 100%;
     box-sizing: border-box;
-    top:0;
+    top: 0;
     display: none;
     margin-top: 70px;
     position: absolute;
@@ -84,5 +84,3 @@ ul.popover {
 ul.popover ul li h2 {
     font-size: 16px;
 }
-
-
